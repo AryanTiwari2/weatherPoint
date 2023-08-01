@@ -1,0 +1,40 @@
+h1{
+    font-family: 'Teko', sans-serif;
+    font-size:40px;
+    text-align:center;
+    color: rgb(240, 137, 11);
+    text-shadow:2px 2px 4px rgb(247, 7, 7);
+}
+.input-box{
+   background-color: rgb(235, 191, 17);
+   justify-content: space-between;
+   align-items: center;
+   /* padding: 10px; */
+   margin-left: 600px;
+   margin-right: 568px;
+   border-radius: 10px;
+   box-shadow: 4px 4px 6px rgb(9, 9, 9);
+}
+.input{
+    font-size: 19px;
+    font-family: 'Crete Round', serif;
+    font-weight: bold;
+    padding: 9px;
+    width: 300px;
+    background-color:cornsilk;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.search-box{
+    border: none;
+    background-color: rgb(70, 208, 250);
+    height: 40px;
+    width:50px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.search-box:hover{
+    cursor: pointer;
+    background-color:rgb(15, 195, 249) ;
+}

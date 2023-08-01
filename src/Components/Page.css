@@ -1,0 +1,96 @@
+.main-box{
+    background-color: rgb(116, 7, 240);
+    height:500px;
+    width:50%;
+    margin-left:400px;
+    box-shadow: 6px 6px 10px rgb(9, 9, 9);
+    border-radius: 10px;
+}
+.weather-icon{
+    color:white;
+    font-size:150px;
+    margin-left:300px;
+    margin-top:20px;
+}
+.icon-div{
+    background-image: url('Download-Free-Weather-Background.jpg');
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    height:200px;
+}
+.weatherInfo{
+    position:relative;                                     
+    background-color:black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:150px;
+}
+.temp p{
+    margin-left: 20px;
+    font-size:50px;
+    color:whitesmoke;
+    font-family: 'Bree Serif', serif;
+}
+.box{
+    width:500px;
+    justify-content: space-around;
+    position: relative;
+}
+.mood{
+    color:aliceblue;
+    font-size:45px;
+    font-weight: bold;
+    margin-left: 50px;
+    font-family: 'Carter One', cursive;
+}
+.place{
+    color:aliceblue;
+    font-size:15px;
+    font-weight: bold;
+    margin-left: 60px;
+    font-family: 'Carter One', cursive;
+}
+.time{
+    background-color: rgb(3, 117, 117);
+    width:192px;
+    height:150px;
+    position: absolute;
+    margin-left: 576px;
+}
+.time p{
+    color:aliceblue;
+    font-size:25px;
+    font-weight: bold;
+    font-family: 'Kalam', cursive;
+    margin-top:23px;
+    margin-left:20px;
+}
+.last-line{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: beige;
+    height:150px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.lastInfo{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.lastInfo i{
+    color:green;
+    font-size:30px;
+}
+.last
+{
+    font-size: 17px;
+}
+.last span{
+    display:block;
+    font-size: 25px;
+    margin-left: 10px;
+}
